@@ -1,0 +1,12 @@
+[programs.localnet]
+guess_number_sol = "CabdhrHZ3qDuwB6HDkda41SZmiSR3iXE5y1R52UZP6y7"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/jdesorm/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
