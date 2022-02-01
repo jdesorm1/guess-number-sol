@@ -1,11 +1,11 @@
-[programs.localnet]
+[programs.devnet]
 guess_number_sol = "CabdhrHZ3qDuwB6HDkda41SZmiSR3iXE5y1R52UZP6y7"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/Users/jdesorm/.config/solana/id.json"
 
 [scripts]
